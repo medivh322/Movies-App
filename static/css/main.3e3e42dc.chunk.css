@@ -1,0 +1,2 @@
+.navigation{display:flex;justify-content:flex-end}.navigation>*{padding:10px 30px;background:rgba(25,238,156,.911);color:#fff}.sorting{margin-left:100px;display:flex;align-items:center}.sorting p{margin:0;cursor:pointer}.navigation>:hover{text-decoration:none}.navigation>:nth-child(2){margin-left:20px}.navigation>.active{background:#7c1313}
+/*# sourceMappingURL=main.3e3e42dc.chunk.css.map */
