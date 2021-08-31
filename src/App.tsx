@@ -26,10 +26,10 @@ const App = (state: any) => {
     <BrowserRouter>
       <div className="container-fluid">
         <div className="navigation">
-          <NavLink to="/">Главная</NavLink>
-          <NavLink to="/about">О команде</NavLink>
+          <NavLink to="/Movies-App/">Главная</NavLink>
+          <NavLink to="/Movies-App/about">О команде</NavLink>
         </div>
-        <Route path={'/'} exact>
+        <Route path={'/Movies-App/'} exact>
           <div className="d-flex">
             <input type="text" ref={inputRef} placeholder="Название фильма на англ"/>
             <button onClick={(e) => clickInputHandler()}>Поиск</button> 
@@ -46,10 +46,10 @@ const App = (state: any) => {
           </div>
           <ListFilms />
         </Route>
-        <Route path={'/about'} exact>
+        <Route path={'/Movies-App/about'} exact>
           <div>Hello, my name is Emil</div>
         </Route>
-        <Route path={'/film/:id'} exact>
+        <Route path={'/Movies-App/film/:id'} exact>
           <FilmDetailPage />
         </Route>
       </div>
